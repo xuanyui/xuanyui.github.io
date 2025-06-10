@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>玄御の委託小站</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- 前偉委託-->
+        <style>
+            :root {
+                --color-bg: #ffffff;
+                --color-text: #374151;
+                --color-gray: #6b7280;
+                --color-primary: #111827;
+                --color-primary-hover: #1f2937;
+                --color-border: #d1d5db;
+                --border-radius: 0.75rem;
+                --spacing-unit: 1rem;
+                --font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+                Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                --transition-speed: 0.3s;
+            }
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                margin: 0;
+                font-family: var(--font-family);
+                background-color: var(--color-bg);
+                color: var(--color-text);
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                line-height: 1.5;
+            }
+            .container {
+                max-width: 720px;
+                padding: calc(var(--spacing-unit) * 4) var(--spacing-unit);
+                margin: 0 auto;
+            }
+            h1 {
+                font-family: 'Inter', sans-serif;
+                font-size: 3rem;
+                font-weight: 700;
+                margin-bottom: calc(var(--spacing-unit) * 3);
+                color: var(--color-primary);
+            }
+            form {
+                background: #f9fafb;
+                padding: calc(var(--spacing-unit) * 3);
+                border-radius: var(--border-radius);
+                box-shadow: 0 4px 6px rgb(0 0 0 / 0.05);
+                display: flex;
+                flex-direction: column;
+                gap: calc(var(--spacing-unit) * 2);
+            }
+            label {
+                font-weight: 600;
+                color: var(--color-primary);
+                display: block;
+                margin-bottom: 0.5rem;
+            }
+            select,
+            input[type="text"],
+            input[type="file"] {
+                width: 100%;
+                padding: 0.75rem 1rem;
+                font-size: 1rem;
+                border: 1px solid var(--color-border);
+                border-radius: var(--border-radius);
+                color: var(--color-text);
+                background: white;
+                transition: border-color var(--transition-speed), box-shadow var(--transition-speed);
+            }
+            select:focus,
+            input[type="text"]:focus,
+            input[type="file"]:focus {
+                outline: none;
+                border-color: var(--color-primary);
+                box-shadow: 0 0 0 3px rgb(59 130 246 / 0.3);
+            }
+            button[type="submit"] {
+                background-color: var(--color-primary);
+                color: #fff;
+                font-weight: 600;
+                font-size: 1.125rem;
+                padding: 0.75rem 1.5rem;
+                border: none;
+                border-radius: var(--border-radius);
+                cursor: pointer;
+                transition: background-color var(--transition-speed),
+                transform var(--transition-speed),
+                box-shadow var(--transition-speed);
+                align-self: start;
+            }
+            button[type="submit"]:hover,
+            button[type="submit"]:focus {
+                background-color: var(--color-primary-hover);
+                box-shadow: 0 8px 15px rgb(0 0 0 / 0.1);
+                transform: translateY(-2px) scale(1.03);
+                outline: none;
+            }
+            /* Additional spacing for inputs */
+            .form-group {
+                display: flex;
+                flex-direction: column;
+            }
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">玄御の委託小站</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/委託範例 頭貼1 完稿.png" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">關於我</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">委託項目</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">委託流程</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">委託須知</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">前往委託</a></li>
+
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- 關於我-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        玄御
+                        <span class="text-primary">きよね</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        聯絡方式X @kiyone0628 · 聯絡信箱·
+                        <a href="mailto:name@email.com">kiyone0628@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">
+                        二次元正太控 三次元大叔控的生存系大一生<br>
+                        下方是我平常的創作 會不定時更新 敬啟期待
+                    </p>
+
+                    <div class="row">
+                        <div class="col-lg-4">【二創/if看電影】<img src="assets/img/if 看電影.png" height="380" width="280"/></div>
+                        <div class="col-lg-4">【原創/無題】<img src="assets/img/JK2.png" height="390" width="300"/></div>
+                        <div class="col-lg-4">【朋友交換繪/男僕裝】<img src="assets/img/0芳OC 黑白版.png" height="380" width="280"/></div>
+                    </div>
+
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- 委託項目-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">委託項目</h2>
+
+                    <div class="row">
+                        <div class="col-lg-6"><h3 class="mb-0">QQ人</h3></div>
+                        <div class="col-lg-6"><h3 class="mb-0">大頭貼</h3></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6"><img src="範例圖/義炭QQ.png" height="512" width="512"/></div>
+                        <div class="col-lg-6"><img src="範例圖/委託範例 頭貼1 完稿.png" height="512" width="512"/></div>
+                    </div>
+                    <div><br></div>
+                    <div class="row">
+                        <div class="col-lg-4"><h3 class="mb-0">半身插畫</h3></div>
+                        <div class="col-lg-4"><h3 class="mb-0">黑白塗鴉</h3></div>
+                        <div class="col-lg-4"><h3 class="mb-0">驚喜包</h3></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4"><img src="範例圖/重畫女兒.png" height="380" width="280"/></div>
+                        <div class="col-lg-4"><img src="範例圖/黑白插圖.png" height="380" width="280"/></div>
+                        <div class="col-lg-4"><img src="範例圖/光遇溫柔大姊姊 改1.png" height="380" width="280"/></div>
+                    </div>
+            </section>
+
+
+
+            <hr class="m-0" />
+            <!-- 委託流程-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">委託流程</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">網站委託</h3>
+                            <div class="subheading mb-3">上傳檔案>確認草稿>線稿確認>色稿確認>確認成圖(有浮水印)>付款>交成圖</div>
+                            <div>若超過NT.1000需再確認草稿後付半款</div>
+                        </div>
+
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">私訊委託(詢問其他項目)</h3>
+                            <div class="subheading mb-3">私訊討論>上傳參考圖>確認草稿>付半款>線稿確認>色稿確認>確認成圖(有浮水印)>付餘款>交成圖</div>
+                            <div>若有特殊需求之委託一律先付半款</div>
+                            <div>詢問時請有禮貌 (個人不喜歡被稱太太) 可叫我玄御就好!</div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- 委託須知-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">委託須知</h2>
+                    <h3 class="mb-0">注意事項</h3>
+                        <div class="subheading mb-3">加急×1.5 商用×3</div>
+                        <div class="subheading mb-3">QQ人服裝會簡化</div>
+                        <div class="subheading mb-3">會依複雜設加NT.50-200不等</div>
+                        <div class="subheading mb-3">每個項目草稿可修改3次，超過1次須加NT.50</div>
+                        <div class="subheading mb-3">婉拒成熟男角、陽剛男角、老人、動物</div>
+                        <div class="subheading mb-3">除驚喜包外，皆可指定動作，草稿確認完成後不可更改動作</div>
+                        <div class="subheading mb-3">上色為偽厚塗，會有非常細微的雜線(會盡量修乾淨)，完美主義者請迴避><</div>
+                        <div class="subheading mb-3">生存系大學生遇到期中期末忙碌時委托工期會延長</div>
+                        <div class="subheading mb-3">公開發布時請標注作者：玄御/@kiyone0628</div>
+                        <div class="subheading mb-3">歡迎私訊討論!</div>
+                    <h3 class="mb-0">工期</h3>
+                        <div class="subheading mb-3">QQ人｜排單後1~3天</div>
+                        <div class="subheading mb-3">大頭貼｜排單後1~4天</div>
+                        <div class="subheading mb-3">驚喜包｜排單後1~3天</div>
+                        <div class="subheading mb-3">半身插畫｜排單後3~5天</div>
+                        <div class="subheading mb-3">黑白塗鴉｜排單後1~3天</div>
+                    <h3 class="mb-0">付款</h3>
+                        <div class="subheading mb-3">付款方式:匯款(郵局/中信)</div>
+                        <div class="subheading mb-3">NT.1000以上之委託，確認草稿後須付半款，匯完餘款後交付成圖</div>
+                        <div class="subheading mb-3">確認完稿後 付完全款才會給無水印圖</div>
+                        <div class="subheading mb-3"></div>
+
+            </section>
+            <hr class="m-0" />
+            <!-- 前往委託-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <main class="container" role="main">
+                        <h1>前往委託</h1>
+                        <form id="contactForm" novalidate>
+                            <div class="form-group">
+                                <label for="inquiryType">委託項目</label>
+                                <select id="inquiryType" name="inquiryType" required aria-required="true" aria-label="Inquiry Type">
+                                    <option value="" disabled selected>下方擇一</option>
+                                    <option value="QQ人">QQ人</option>
+                                    <option value="大頭貼">大頭貼</option>
+                                    <option value="黑白塗鴉">黑白塗鴉</option>
+                                    <option value="半身插畫">半身插畫</option>
+                                    <option value="驚喜包">驚喜包</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inquiryType">付款方式</label>
+                                <select id="inquiryType" name="inquiryType" required aria-required="true" aria-label="Inquiry Type">
+                                    <option value="" disabled selected>下方擇一</option>
+                                    <option value="中國信託(匯款)">中國信託(匯款)</option>
+                                    <option value="郵局(匯款)">郵局(匯款)</option>
+                                    <option value="其他">其他(請先私訊詢問)</option>
+                                </select>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="fullName">需求描述</label>
+                                <input type="text" id="fullName" name="fullName" required aria-required="true" placeholder="想要的動作、表情、氛圍等等 寫得越詳細越好" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="emailAddress">電子信箱</label>
+                                <input type="text" id="emailAddress" name="emailAddress" required aria-required="true" placeholder="your.email@example.com" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="fileUpload">上傳檔案</label>
+                                <input type="file" id="fileUpload" name="fileUpload" aria-label="Upload a file (optional)" />
+                            </div>
+
+                            <button type="submit" aria-label="Submit Contact Form">Send Message</button>
+                        </form>
+                    </main>
+
+                    <script>
+                        const form = document.getElementById('contactForm');
+                        form.addEventListener('submit', (e) => {
+                            e.preventDefault();
+                            if (!form.reportValidity()) {
+                                return;
+                            }
+                            // Simple feedback for demo purposes
+                            alert('謝謝你的委託!!確認資訊無誤後會通知並開始排單~再麻煩多多確認信箱');
+                            form.reset();
+                        });
+                    </script>
+    </body>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
